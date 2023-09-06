@@ -1,0 +1,84 @@
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 40vh; 
+
+}
+
+.fondo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+}
+.corner-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+  }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.what {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+  
+}  
+.what img {
+    position: absolute;
+    bottom: 45px;
+    max-width: 5%; /* Cambia este valor según el tamaño deseado */
+    height: auto;
+}
+
+    .card-group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Centrar horizontalmente */
+      align-items: center;
+
+    }
+    
+
+    .card {
+     
+      max-width: 20%; /* Las cartas ocuparán todo el ancho de la pantalla */
+      margin: 0; /* Elimina los márgenes para aprovechar todo el espacio */
+      border: none; /* Elimina los bordes si los hay */
+      border-radius: 0; 
+      align-items: center;
+    }
+
+    
+      
+      .card-body {
+        text-align: center;
+        
+      }
+    
+    
+    
+    
+    
+    
+    
+
+  
