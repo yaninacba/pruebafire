@@ -38,6 +38,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /* Añade esto para establecer un contexto de posicionamiento */
+    height: 100px; /
    
   
   
@@ -74,10 +76,15 @@
         
       }
     
-    
-    
-    
-    
+      .conta {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 60px;
+         height: 40vh; 
+         font-family: Arial, Helvetica, sans-serif;
+      }
+ 
     
     
 
